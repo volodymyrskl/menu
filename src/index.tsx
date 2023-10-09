@@ -2,6 +2,7 @@ import { createRoot } from "react-dom/client";
 import { StrictMode } from "react";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './index.scss';
 
 const appRootElement: HTMLElement | null = document.getElementById("menu");
 const root = createRoot(appRootElement!);

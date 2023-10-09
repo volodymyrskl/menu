@@ -15,13 +15,23 @@ const treeData: Node = {
             },
             {
               text: 'Node 1.1.2',
-              children: [],
+              children: [
+                {
+                  text: 'Node 1.1.2.1',
+                  children: [],
+                },
+              ],
             },
           ],
         },
         {
           text: 'Node 1.2',
-          children: [],
+          children: [
+            {
+              text: 'Node 1.2.1',
+              children: [],
+            },
+          ],
         },
       ],
     },

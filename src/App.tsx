@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import treeData from './mock.data';
 import RecursiveComponent from './components/utility/recursive.component';
 
