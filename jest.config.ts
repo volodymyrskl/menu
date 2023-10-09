@@ -1,8 +1,7 @@
-import type {Config} from 'jest';
-
-const config: Config = {
-  preset: 'react',
-  verbose: true,
-};
-
-export default config;
+export default {
+  testEnvironment: "jsdom",
+  transform: {
+    "^.+\\.tsx?$": "ts-jest"
+  },
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
+}
